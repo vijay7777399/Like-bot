@@ -40,7 +40,7 @@ from apscheduler.triggers.cron import CronTrigger
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()  # Set this in Railway Variables
 OWNER_ID = 8801876375  # PASTE YOUR REAL TELEGRAM NUMERIC USER ID
 LIKE_API_URL = "https://like-api-1-dun.vercel.app/like?uid={uid}&region={region}&key=Anurag"
-LIKE_API_URL_2 = "https://like-api-2-beryl.vercel.app/like?uid={uid}&region={region}&key=Anurag"
+LIKE_API_URL_2 = "https://like-api-1-dun.vercel.app/like?uid={uid}&region={region}&key=Anurag"
 BOT_NAME = "USER-NAME"
 SUPPORT_USERNAME = "@OBITO_MODZ"
 OFFICIAL_GROUP = "https://t.me/+1G8xWBoFEMs1MWI1"
